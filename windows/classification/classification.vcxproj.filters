@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\cpp_classification\classification.cpp" />
+    <ClCompile Include="..\..\examples\cpp_classification\test_segment.cpp">
+      <Filter>segnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\cpp_classification\connectcomponents.cpp">
+      <Filter>segnet\postprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\cpp_classification\post_process.cpp">
+      <Filter>segnet\postprocess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="segnet">
+      <UniqueIdentifier>{60755e39-66f4-4e81-a6dc-4fcc4af09d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="segnet\postprocess">
+      <UniqueIdentifier>{cf11ad26-11a5-4614-9cf1-ad6a088f54f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\examples\cpp_classification\connectcomponents.hpp">
+      <Filter>segnet\postprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\cpp_classification\post_process.h">
+      <Filter>segnet\postprocess</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,4 +1,6 @@
 # pycaffe_windows
-基于microsoft版的caffe进行修改，用于python平台的development
+## 学习资料
+基于microsoft版的caffe进行修改，用于Anaconda2+1070+VS2013平台下的训练测试
+
 ## posnet
 ## segnet
